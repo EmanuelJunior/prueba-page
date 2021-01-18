@@ -5,7 +5,7 @@
 }
 
 body{
-    background: linear-gradient(to right, #333, #111);
+    background: linear-gradient(to right, #777, #999);
 }
 
 .container{
@@ -15,7 +15,9 @@ body{
     position: relative;
     margin: 20vh auto;
     border-radius: 100px;
-    background: linear-gradient(45deg, #ccc, #aaa);
+    background: transparent;
+    box-shadow: 0 0 10px #222, 0 0 15px #333, 0 0 20px #444;
+    transform: rotate(1.12turn);
 }
 
 .item{
