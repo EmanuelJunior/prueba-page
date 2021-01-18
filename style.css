@@ -33,25 +33,25 @@ body{
 .item:first-child{
     top: 0;
     left: 0;
-    background: linear-gradient(45deg, green, yellowgreen, darkgreen);
+    background: radial-gradient(circle, green, yellowgreen, darkgreen);
 }
 
 .item:nth-child(2){
     top: 0;
     right: 0;
-    background: linear-gradient(45deg, red, darkred, tomato);
+    background: radial-gradient(circle, red, darkred, tomato);
 }
 
 .item:nth-child(3){
     bottom: 0;
     right: 0;
-    background: linear-gradient(45deg, orange, tomato, goldenrod);
+    background: radial-gradient(circle, orange, tomato, goldenrod);
 }
 
 .item:nth-child(4){
     bottom: 0;
     left: 0;
-    background: linear-gradient(45deg, violet, blueviolet, pink);
+    background: radial-gradient(circle, violet, blueviolet, pink);
 }
 
 .item:nth-child(5){
@@ -60,5 +60,5 @@ body{
     right: 0;
     bottom: 0;
     margin: auto;
-    background: linear-gradient(45deg, gold, goldenrod, orange);
+    background: radial-gradient(circle, gold, goldenrod, orange);
 }
